@@ -103,8 +103,6 @@ export class Extractor {
 
     this._config = Extractor._applyConfigDefaults(config);
 
-    this._logger.logVerbose('API Extractor Config: ' + JSON.stringify(this._config));
-
     if (!options) {
       options = { };
     }
@@ -156,6 +154,18 @@ export class Extractor {
       default:
         throw new Error('Unsupported config type');
     }
+  }
+
+  /**
+   * Returns the normalized configuration object after defaults have been applied.
+   *
+   * @remarks
+   * This is a read-only object.  The caller should NOT modify any member of this object.
+   * It is provided for diagnostic purposes.  For example, a build script could write
+   * this object to a JSON file to report the final configuration options used by API Extractor.
+   */
+  public get config(): IExtractorConfig {
+    return this._config;
   }
 
   /**

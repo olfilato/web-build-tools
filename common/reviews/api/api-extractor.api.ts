@@ -14,6 +14,7 @@ class ExternalApiHelper {
 class Extractor {
   public constructor(config: IExtractorConfig, options?: IExtractorOptions);
   public analyzeProject(options?: IAnalyzeProjectOptions): void;
+  public readonly config: IExtractorConfig;
   public static jsonSchema: JsonSchema;
 }
 
