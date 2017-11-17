@@ -173,6 +173,8 @@ interface IExtractorConfig {
   apiJsonFile?: IExtractorApiJsonFileConfig;
   apiReviewFile?: IExtractorApiReviewFileConfig;
   compiler: IExtractorTsconfigCompilerConfig | IExtractorRuntimeCompilerConfig;
+  // @beta
+  packageTypings?: IExtractorPackageTypingsConfig;
   policies?: IExtractorPoliciesConfig;
   project: IExtractorProjectConfig;
 }
@@ -182,6 +184,12 @@ interface IExtractorOptions {
   compilerProgram?: ts.Program;
   customLogger?: Partial<ILogger>;
   localBuild?: boolean;
+}
+
+// @beta
+interface IExtractorPackageTypingsConfig {
+  enabled: boolean;
+  outputFolder?: string;
 }
 
 // @public
