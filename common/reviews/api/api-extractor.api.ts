@@ -189,7 +189,10 @@ interface IExtractorOptions {
 // @beta
 interface IExtractorPackageTypingsConfig {
   enabled: boolean;
+  internalFilename?: string;
   outputFolder?: string;
+  previewFilename?: string;
+  publicFilename?: string;
 }
 
 // @public
