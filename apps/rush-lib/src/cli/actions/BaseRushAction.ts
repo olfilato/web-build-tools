@@ -9,7 +9,7 @@ import {
 } from '@microsoft/ts-command-line';
 
 import RushConfiguration from '../../data/RushConfiguration';
-import EventHooksManager from '../utilities/EventHooksManager';
+import EventHooksManager from '../logic/EventHooksManager';
 
 /**
  * The base Rush action that all Rush actions should extend.
@@ -50,7 +50,7 @@ export abstract class BaseRushAction extends CommandLineAction {
 
   private _ensureEnvironment(): void {
     /* tslint:disable-next-line:no-string-literal */
-    let environmentPath: string = process.env['PATH'];
+    let environmentPath: string | undefined = process.env['PATH'];
     environmentPath = path.join(this.rushConfiguration.commonTempFolder, 'node_modules', '.bin') +
       path.delimiter + environmentPath;
     /* tslint:disable-next-line:no-string-literal */

@@ -1,6 +1,48 @@
 # Change Log - @microsoft/rush
 
-This log was last generated on Thu, 30 Nov 2017 20:31:01 GMT and should not be manually modified.
+This log was last generated on Sun, 21 Jan 2018 06:33:59 GMT and should not be manually modified.
+
+## 4.2.4
+Sun, 21 Jan 2018 06:33:59 GMT
+
+### Updates
+
+- Improve the error message when loading rush.json from a newer release
+
+## 4.2.3
+Thu, 18 Jan 2018 19:02:07 GMT
+
+### Updates
+
+- Avoid git errors when there are only empty change files
+
+## 4.2.2
+Wed, 17 Jan 2018 10:49:31 GMT
+
+*Version update only*
+
+## 4.2.1
+Fri, 12 Jan 2018 23:35:48 GMT
+
+### Patches
+
+- Fix a bug in "rush change" to allow skipping changes when empty change file exists.
+- Change the way Rush prints output, to make it more readable and easy to tell how far into a build you are.
+
+## 4.2.0
+Mon, 11 Jan 2018 22:14:30 GMT
+
+### Minor changes
+
+- Introduce a new project-specific setting "skipRushCheck" to exempt certain projects from the "rush check" validation
+- Introduce a new setting "mainProject" for lockstep version policies. This enables a scenario where a group of packages share a common change log, which is associated with the main project.
+
+## 4.1.1
+Mon, 08 Jan 2018 20:34:30 GMT
+
+### Patches
+
+- Fix an issue with checking the pnpm shrinkwrap file when there are peer dependency version specifiers
 
 ## 4.1.0
 Thu, 30 Nov 2017 20:34:30 GMT

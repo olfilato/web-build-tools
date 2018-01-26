@@ -1,6 +1,99 @@
 # Change Log - @microsoft/gulp-core-build
 
-This log was last generated on Wed, 29 Nov 2017 17:05:37 GMT and should not be manually modified.
+This log was last generated on Tue, 23 Jan 2018 17:05:28 GMT and should not be manually modified.
+
+## 3.5.1
+Tue, 23 Jan 2018 17:05:28 GMT
+
+### Patches
+
+- Replace gulp-util.colors with colors package
+
+## 3.5.0
+Thu, 18 Jan 2018 03:23:46 GMT
+
+### Minor changes
+
+- Add a feature where when shouldWarningsFailBuild is true, then we will hook stderr and fail the build if anything consequential is written there
+
+## 3.4.4
+Thu, 18 Jan 2018 00:48:06 GMT
+
+*Version update only*
+
+## 3.4.3
+Wed, 17 Jan 2018 10:49:31 GMT
+
+*Version update only*
+
+## 3.4.2
+Fri, 12 Jan 2018 03:35:22 GMT
+
+*Version update only*
+
+## 3.4.1
+Thu, 11 Jan 2018 22:31:51 GMT
+
+### Patches
+
+- Fix Jest error handling
+
+## 3.4.0
+Wed, 10 Jan 2018 20:40:01 GMT
+
+### Minor changes
+
+- Upgrade to Node 8
+
+## 3.3.7
+Tue, 09 Jan 2018 17:05:51 GMT
+
+### Patches
+
+- Get web-build-tools building with pnpm
+
+## 3.3.6
+Sun, 07 Jan 2018 05:12:08 GMT
+
+*Version update only*
+
+## 3.3.5
+Fri, 05 Jan 2018 20:26:45 GMT
+
+### Patches
+
+- Specify package version for chalk. It was used without version specified.
+
+## 3.3.4
+Fri, 05 Jan 2018 00:48:41 GMT
+
+### Patches
+
+- Update Jest to ~21.2.1
+
+## 3.3.3
+Fri, 22 Dec 2017 17:04:46 GMT
+
+*Version update only*
+
+## 3.3.2
+Tue, 12 Dec 2017 03:33:26 GMT
+
+*Version update only*
+
+## 3.3.1
+Thu, 30 Nov 2017 23:59:09 GMT
+
+### Patches
+
+- reverted addition of rootDir as a parameter for jest task
+
+## 3.3.0
+Thu, 30 Nov 2017 23:12:21 GMT
+
+### Minor changes
+
+- Added optional args moduleDirectories and rootDir to JestTask
 
 ## 3.2.9
 Wed, 29 Nov 2017 17:05:37 GMT

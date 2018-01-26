@@ -1,6 +1,102 @@
 # Change Log - @microsoft/gulp-core-build-typescript
 
-This log was last generated on Wed, 29 Nov 2017 17:05:37 GMT and should not be manually modified.
+This log was last generated on Tue, 23 Jan 2018 17:05:28 GMT and should not be manually modified.
+
+## 4.7.4
+Tue, 23 Jan 2018 17:05:28 GMT
+
+*Version update only*
+
+## 4.7.3
+Thu, 18 Jan 2018 03:23:46 GMT
+
+### Patches
+
+- Upgrade api-extractor library
+
+## 4.7.2
+Thu, 18 Jan 2018 00:48:06 GMT
+
+*Version update only*
+
+## 4.7.1
+Thu, 18 Jan 2018 00:27:23 GMT
+
+### Patches
+
+- Remove deprecated tslint rule "typeof-compare"
+
+## 4.7.0
+Wed, 17 Jan 2018 10:49:31 GMT
+
+### Minor changes
+
+- Upgrade TSLint and tslint-microsoft-contrib.
+
+## 4.6.0
+Fri, 12 Jan 2018 03:35:22 GMT
+
+### Minor changes
+
+- Add a new setting "generatePackageTypings" for the API Extractor task
+
+## 4.5.1
+Thu, 11 Jan 2018 22:31:51 GMT
+
+*Version update only*
+
+## 4.5.0
+Wed, 10 Jan 2018 20:40:01 GMT
+
+### Minor changes
+
+- Upgrade to Node 8
+
+## 4.4.1
+Tue, 09 Jan 2018 17:05:51 GMT
+
+### Patches
+
+- Get web-build-tools building with pnpm
+
+## 4.4.0
+Sun, 07 Jan 2018 05:12:08 GMT
+
+### Minor changes
+
+- The ApiExtractor task now expects *.d.ts files instead of *.ts, but includes a compatibility workaround for the common case of src/index.ts
+
+## 4.3.3
+Fri, 05 Jan 2018 20:26:45 GMT
+
+*Version update only*
+
+## 4.3.2
+Fri, 05 Jan 2018 00:48:41 GMT
+
+*Version update only*
+
+## 4.3.1
+Fri, 22 Dec 2017 17:04:46 GMT
+
+*Version update only*
+
+## 4.3.0
+Tue, 12 Dec 2017 03:33:26 GMT
+
+### Minor changes
+
+- Allow the TS task's configuration to be extended on an instance-by-instance basis.
+
+## 4.2.18
+Thu, 30 Nov 2017 23:59:09 GMT
+
+*Version update only*
+
+## 4.2.17
+Thu, 30 Nov 2017 23:12:21 GMT
+
+*Version update only*
 
 ## 4.2.16
 Wed, 29 Nov 2017 17:05:37 GMT

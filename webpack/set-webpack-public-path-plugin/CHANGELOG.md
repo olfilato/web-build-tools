@@ -1,6 +1,85 @@
 # Change Log - @microsoft/set-webpack-public-path-plugin
 
-This log was last generated on Wed, 29 Nov 2017 17:05:37 GMT and should not be manually modified.
+This log was last generated on Tue, 23 Jan 2018 17:05:28 GMT and should not be manually modified.
+
+## 1.4.6
+Tue, 23 Jan 2018 17:05:28 GMT
+
+*Version update only*
+
+## 1.4.5
+Thu, 18 Jan 2018 03:23:46 GMT
+
+*Version update only*
+
+## 1.4.4
+Thu, 18 Jan 2018 00:48:06 GMT
+
+*Version update only*
+
+## 1.4.3
+Wed, 17 Jan 2018 10:49:31 GMT
+
+*Version update only*
+
+## 1.4.2
+Fri, 12 Jan 2018 03:35:22 GMT
+
+*Version update only*
+
+## 1.4.1
+Thu, 11 Jan 2018 22:31:51 GMT
+
+*Version update only*
+
+## 1.4.0
+Wed, 10 Jan 2018 20:40:01 GMT
+
+### Minor changes
+
+- Upgrade to Node 8
+
+## 1.3.14
+Tue, 09 Jan 2018 17:05:51 GMT
+
+### Patches
+
+- Get web-build-tools building with pnpm
+
+## 1.3.13
+Sun, 07 Jan 2018 05:12:08 GMT
+
+*Version update only*
+
+## 1.3.12
+Fri, 05 Jan 2018 20:26:45 GMT
+
+*Version update only*
+
+## 1.3.11
+Fri, 05 Jan 2018 00:48:41 GMT
+
+*Version update only*
+
+## 1.3.10
+Fri, 22 Dec 2017 17:04:46 GMT
+
+*Version update only*
+
+## 1.3.9
+Tue, 12 Dec 2017 03:33:27 GMT
+
+*Version update only*
+
+## 1.3.8
+Thu, 30 Nov 2017 23:59:09 GMT
+
+*Version update only*
+
+## 1.3.7
+Thu, 30 Nov 2017 23:12:21 GMT
+
+*Version update only*
 
 ## 1.3.6
 Wed, 29 Nov 2017 17:05:37 GMT
